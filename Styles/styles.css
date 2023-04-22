@@ -1,0 +1,39 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css');
+
+body {
+    background-image: url('../images/south\ park.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+ol {
+    display: flex;
+    justify-content: center;
+    list-style: upper-alpha;
+}
+
+p {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+h1 {
+    display: block;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: capitalize;
+    font-weight: bolder;
+}
+footer {
+    display: flex;
+    justify-content:space-around;
+    align-items: flex-end;
+}
+img {
+    width: 40px;
+}
