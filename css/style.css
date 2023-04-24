@@ -1,22 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600;700&display=swap');
 
+html, body {
+    background-color: slategray;
+    margin: 0;
+    padding: 0;
+    /* background-color: rgb(110, 253, 253); */
+}
+
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: darkblue;
+    color: #fff;
     text-align: center;
     
 }
 
 header {
-    color: lightgrey;
+    background-color: #333333;
 }
 
 .nav {
-    display: flex;
-    justify-content: flex-end;
-    flex-wrap: wrap;
-    align-content: space-between;
-    padding: 20px 40px;
+    margin: 0;
+    padding: 20px 0;
+}
+
+.nav li {
+    display: inline;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin-left:10px;
+    margin-right:10px;
 }
 
 .heading {
@@ -25,6 +39,7 @@ header {
     justify-content:center;
     align-content: space-between;
     background-color: transparent;
+    text-align:center;
 }
 
 /* .btn {
@@ -37,22 +52,13 @@ header {
     cursor: pointer;
 } */
 
-body {
-    background-color: slategray;
-    background-image: url(../images/File\ sharing\ and\ storage\ made\ simple.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-size: cover;
-    /* background-color: rgb(110, 253, 253); */
-}
-
 .content {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    font-weight: 600;
-    }
+    background: url(https://s3.amazonaws.com/codecademy-content/projects/broadway/bg.jpg);
+    background-size:cover;
+    background-position:center center;
+    background-repeat:no-repeat;
+    height: 800px;
+}
 
 img {
     height: 55px;
@@ -61,4 +67,10 @@ img {
 
 .last-content {
     margin: 40px;
+}
+
+.icons p {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-size: 11px;
 }
