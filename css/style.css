@@ -2,21 +2,32 @@
 
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color:black;
+    color: darkblue;
     text-align: center;
     
 }
 
 header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-content: space-between;
-    gap: 100px;
-    background-color: burlywood;
+    color: lightgrey;
 }
 
-.btn {
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-content: space-between;
+    padding: 20px 40px;
+}
+
+.heading {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-content: space-between;
+    background-color: transparent;
+}
+
+/* .btn {
     background-color: #08d;
     padding: 12px 20px;
     box-sizing: border-box;
@@ -24,25 +35,30 @@ header {
     border: none;
     border-radius: 12px;
     cursor: pointer;
-}
+} */
 
 body {
-    background-color: lightblue;
+    background-color: slategray;
+    background-image: url(../images/File\ sharing\ and\ storage\ made\ simple.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: rgb(110, 253, 253);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: rgb(110, 253, 253); */
 }
 
 .content {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    color: black;
-    background-image: url(../images/File\ sharing\ and\ storage\ made\ simple.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    font-weight: 600;
+    }
+
+img {
+    height: 55px;
+    width: 55px;
 }
 
 .last-content {
-    background-color: burlywood;
+    margin: 40px;
 }
