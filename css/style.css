@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600;700&display=swap');
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:black;
+    text-align: center;
+    
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: space-between;
+    gap: 100px;
+    background-color: burlywood;
+}
+
+.btn {
+    background-color: #08d;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    color: #eee;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+body {
+    background-color: lightblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(110, 253, 253);
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: black;
+    background-image: url(../images/File\ sharing\ and\ storage\ made\ simple.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.last-content {
+    background-color: burlywood;
+}
